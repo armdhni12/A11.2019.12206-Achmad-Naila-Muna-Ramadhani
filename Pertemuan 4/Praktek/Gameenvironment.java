@@ -79,8 +79,8 @@ public class Gameenvironment{
         hero.run(12);
         System.out.println("Posisi Player: "+hero.getx()+","+hero.gety());
         Gameplayer hero2=new Gameplayer();
-        hero.setdimension(12,32);
-        hero.setposition(10,10);
+        hero2.setdimension(12,32);
+        hero2.setposition(10,10);
         Gameenemy monster=new Gameenemy();
         monster.setdimension(12,32);
         monster.setposition(10,10);
